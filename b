@@ -11,13 +11,15 @@
 	    bittmap = doProcess(bittmap);   
 	    myImage.setImageBitmap(bittmap);
 	    myImage.invalidate();  
+
 	    if (send == 1 )
 	    {
 	    	
-
-        	 //new Thread(new upThreada()).start();
-	    	
-	    	send = 0  ; 
+	    	for(){
+	        	 //new Thread(new upThreada()).start();
+		    	
+		    	send = 0  ; 
+	    	}
 	    	
 	    }
 	 a = 1;
