@@ -9,7 +9,7 @@
      myImage.setImageBitmap(bmm);
 
 	    bittmap = doProcess(bittmap);   
-	    myImage.setImageBitmap(bittmap);
+	    myImage.setImageBitmap(bittmap);hhh
 	    myImage.invalidate();  
 
 	    if (send == 1 )
